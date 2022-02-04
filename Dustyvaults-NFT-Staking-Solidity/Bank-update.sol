@@ -307,7 +307,7 @@ contract Bank {
     function stakebyHash(string memory hashx, string memory namex, address tokenAddress, uint256 tokenId, uint256 amount) external {
 
         require(amount <= token.balanceOf(msg.sender), "NE"); // MsgSender's balance must be larger than amount
-        require(amount >= 10 * 10**18 && amount <= 1000 * 10**18, "IN"); //Amount must be in this range(10~1000)
+        require(amount >= 1 * 10**18 && amount <= 1000 * 10**18, "IN"); //Amount must be in this range(10~1000)
 
         if(activities[msg.sender].length == 0) stakers.push(msg.sender);
         
