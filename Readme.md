@@ -1,13 +1,13 @@
-# Install and run
+## Install and run
 
 - clone the repo from `https://github.com/best-lucky1030/dusty-valuts.git`
 - `cd frontend`
 - `yarn`
 - `yarn dev`
 
-# description of this repo
+## Description for this repo
 
-This repo is for showing staking and unstaking NFT using $DUSTY tokens.
+This repo is for showing staking and unstaking NFT using $DUSTY token and Web3.
 
 You can get rewards 12 months later after you stake NFTs.
 
